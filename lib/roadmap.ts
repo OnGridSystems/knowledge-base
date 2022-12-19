@@ -15,6 +15,7 @@ export type RoadmapType = {
     url: string;
   };
   type: 'role' | 'tool';
+  keySkill: boolean;
   featured: boolean;
   imageUrl?: string;
   jsonUrl?: string;
@@ -39,7 +40,9 @@ export function getAllRoadmaps(): RoadmapType[] {
 }
 
 export function filterRoadmapsByIds(ids: string[]): RoadmapType[] {
-  return (roadmaps as RoadmapType[]).filter(roadmap => ids.includes(roadmap.id));
+  return (roadmaps as RoadmapType[]).filter((roadmap) =>
+    ids.includes(roadmap.id)
+  );
 }
 
 export function getFeaturedRoadmaps(): RoadmapType[] {
@@ -49,5 +52,26 @@ export function getFeaturedRoadmaps(): RoadmapType[] {
 }
 
 export function isInteractiveRoadmap(id: string): boolean {
-  return ['frontend', 'backend', 'devops', 'react', 'vue', 'python', 'java', 'blockchain', 'golang', 'javascript', 'nodejs', 'qa', 'design-system', 'angular', 'software-architect', 'software-design-architecture', 'aspnet-core', 'flutter', 'computer-science', 'graphql'].includes(id);
+  return [
+    'frontend',
+    'backend',
+    'devops',
+    'react',
+    'vue',
+    'python',
+    'java',
+    'blockchain',
+    'golang',
+    'javascript',
+    'nodejs',
+    'qa',
+    'design-system',
+    'angular',
+    'software-architect',
+    'software-design-architecture',
+    'aspnet-core',
+    'flutter',
+    'computer-science',
+    'graphql',
+  ].includes(id);
 }

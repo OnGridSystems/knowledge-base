@@ -21,6 +21,7 @@
   "description": "Steps to follow in order to become a modern QA Engineer in 2022",
   "featuredTitle": "QA",
   "type": "role",
+  "keySkill": false,
   "featuredDescription": "Step by step guide to becoming a modern QA Engineer in 2022",
   "featured": true,
   "isNew": true,
@@ -33,11 +34,5 @@
     "url": "https://github.com/anas-qa"
   },
   "contentPathsFilePath": "./content-paths.json",
-  "relatedRoadmaps": [
-    "frontend",
-    "backend",
-    "devops",
-    "javascript",
-    "nodejs"
-  ]
+  "relatedRoadmaps": ["frontend", "backend", "devops", "javascript", "nodejs"]
 }

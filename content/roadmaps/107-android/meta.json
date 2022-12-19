@@ -20,6 +20,7 @@
   "description": "Step by step guide to becoming an Android developer in 2022",
   "featuredTitle": "Android",
   "type": "role",
+  "keySkill": false,
   "featuredDescription": "Step by step guide to becoming an Android Developer in 2022",
   "isTextHeavy": true,
   "isCommunity": false,
@@ -27,19 +28,10 @@
   "jsonUrl": "/project/android.json",
   "landingPath": "./landscape.md",
   "resourcesPath": "./resources.md",
-  "versions": [
-    "latest",
-    "2018",
-    "2017"
-  ],
+  "versions": ["latest", "2018", "2017"],
   "author": {
     "name": "Kamran Ahmed",
     "url": "https://twitter.com/kamranahmedse"
   },
-  "relatedRoadmaps": [
-    "frontend",
-    "javascript",
-    "react",
-    "nodejs"
-  ]
+  "relatedRoadmaps": ["frontend", "javascript", "react", "nodejs"]
 }

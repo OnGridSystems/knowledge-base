@@ -31,6 +31,7 @@
   "description": "Everything that is there to learn about Vue and the ecosystem in 2022.",
   "featuredTitle": "Vue",
   "type": "tool",
+  "keySkill": false,
   "featuredDescription": "Step by step guide to become a Vue Developer in 2022",
   "isTextHeavy": false,
   "isCommunity": false,
@@ -38,22 +39,12 @@
   "featured": true,
   "jsonUrl": "/project/vue.json",
   "resourcesPath": "./resources.md",
-  "versions": [
-    "latest",
-    "2018",
-    "2017"
-  ],
+  "versions": ["latest", "2018", "2017"],
   "author": {
     "name": "Kamran Ahmed",
     "url": "https://twitter.com/kamranahmedse"
   },
   "pdfUrl": "/pdfs/vue.pdf",
   "contentPathsFilePath": "./content-paths.json",
-  "relatedRoadmaps": [
-    "frontend",
-    "javascript",
-    "react",
-    "angular",
-    "nodejs"
-  ]
+  "relatedRoadmaps": ["frontend", "javascript", "react", "angular", "nodejs"]
 }

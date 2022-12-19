@@ -32,6 +32,7 @@
   "description": "Step by step guide to becoming an ASP.NET core developer in 2022",
   "featuredTitle": "ASP.NET Core",
   "type": "role",
+  "keySkill": false,
   "featuredDescription": "Step by step guide to becoming an ASP.NET Core Developer in 2022",
   "isTextHeavy": false,
   "isCommunity": false,
@@ -39,11 +40,7 @@
   "featured": true,
   "isNew": true,
   "jsonUrl": "/project/aspnet-core.json",
-  "versions": [
-    "latest",
-    "2018",
-    "2017"
-  ],
+  "versions": ["latest", "2018", "2017"],
   "author": {
     "name": "Moien Tajik",
     "url": "https://twitter.com/MoienTajik"

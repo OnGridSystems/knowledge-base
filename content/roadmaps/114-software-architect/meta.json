@@ -28,6 +28,7 @@
   "featuredTitle": "Software Architect",
   "isNew": true,
   "type": "role",
+  "keySkill": false,
   "jsonUrl": "/project/software-architect.json",
   "featuredDescription": "Step by step guide to become a Software Architect in 2022",
   "isCommunity": false,

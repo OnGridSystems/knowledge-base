@@ -30,6 +30,7 @@
   "description": "Step by step guide to becoming a Go developer in 2022",
   "featuredTitle": "Go",
   "type": "tool",
+  "keySkill": false,
   "featuredDescription": "Step by step guide to becoming a Go developer in 2022",
   "isTextHeavy": false,
   "isCommunity": false,
@@ -38,11 +39,7 @@
   "jsonUrl": "/project/golang.json",
   "resourcesPath": "./resources.md",
   "pdfUrl": "/pdfs/go.pdf",
-  "versions": [
-    "latest",
-    "2018",
-    "2017"
-  ],
+  "versions": ["latest", "2018", "2017"],
   "author": {
     "name": "Kamran Ahmed",
     "url": "https://twitter.com/kamranahmedse"
