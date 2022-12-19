@@ -35,6 +35,7 @@
   "featuredTitle": "Frontend",
   "featuredDescription": "Step by step guide to becoming a frontend developer in 2022",
   "type": "role",
+  "keySkill": true,
   "author": {
     "name": "Kamran Ahmed",
     "url": "https://twitter.com/kamranahmedse"

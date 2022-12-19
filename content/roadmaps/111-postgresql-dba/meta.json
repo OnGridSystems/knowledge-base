@@ -27,6 +27,7 @@
   "description": "Step by step guide to becoming a modern PostgreSQL DB Administrator in 2022",
   "featuredTitle": "DBA",
   "type": "role",
+  "keySkill": false,
   "featuredDescription": "Step by step guide to become a PostgreSQL DBA in 2022",
   "landingPath": "./landscape.md",
   "resourcesPath": "./resources.md",
@@ -39,8 +40,5 @@
   "featured": true,
   "detailed": false,
   "versions": [],
-  "relatedRoadmaps": [
-    "backend",
-    "devops"
-  ]
+  "relatedRoadmaps": ["backend", "devops"]
 }

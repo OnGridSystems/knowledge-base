@@ -22,6 +22,7 @@
   "description": "Step by step guide to learn software design and architecture",
   "featuredTitle": "Software Design and Architecture",
   "type": "tool",
+  "keySkill": false,
   "featuredDescription": "Guide to learn software design and architecture",
   "isTextHeavy": false,
   "isCommunity": false,

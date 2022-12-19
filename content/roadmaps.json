@@ -36,6 +36,7 @@
     "featuredTitle": "Frontend",
     "featuredDescription": "Step by step guide to becoming a frontend developer in 2022",
     "type": "role",
+    "keySkill": true,
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -92,6 +93,7 @@
     "title": "Backend Developer",
     "description": "Step by step guide to becoming a modern backend developer in 2022",
     "type": "role",
+    "keySkill": true,
     "featuredTitle": "Backend",
     "featuredDescription": "Step by step guide to becoming a backend developer in 2022",
     "featured": true,
@@ -146,16 +148,13 @@
     "description": "Step by step guide for DevOps, SRE or any other Operations Role in 2022",
     "featuredTitle": "DevOps",
     "type": "role",
+    "keySkill": true,
     "featuredDescription": "Step by step guide for DevOps or operations role in 2022",
     "featured": true,
     "imageUrl": "/roadmaps/devops.png",
     "jsonUrl": "/project/devops.json",
     "resourcesPath": "/roadmaps/102-devops/resources.md",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -201,6 +200,7 @@
     "description": "Computer Science curriculum with free resources for a self-taught developer.",
     "featuredTitle": "Computer Science",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Curriculum with free resources for a self-taught developer.",
     "isTextHeavy": false,
     "isNew": true,
@@ -247,17 +247,14 @@
     "description": "Everything that is there to learn about React and the ecosystem in 2022.",
     "featuredTitle": "React",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to become a React Developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
     "featured": true,
     "resourcesPath": "/roadmaps/103-react/resources.md",
     "jsonUrl": "/project/react.json",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -298,28 +295,19 @@
     "description": "Everything that is there to learn about Angular and the ecosystem in 2022.",
     "featuredTitle": "Angular",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to become a Angular Developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
     "featured": true,
     "jsonUrl": "/project/angular.json",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
     },
     "pdfUrl": "/pdfs/angular.pdf",
-    "relatedRoadmaps": [
-      "frontend",
-      "javascript",
-      "react",
-      "vue",
-      "nodejs"
-    ],
+    "relatedRoadmaps": ["frontend", "javascript", "react", "vue", "nodejs"],
     "contentPathsFilePath": "/roadmaps/104-angular/content-paths.json",
     "id": "angular",
     "metaPath": "/roadmaps/104-angular/meta.json",
@@ -358,6 +346,7 @@
     "description": "Everything that is there to learn about Vue and the ecosystem in 2022.",
     "featuredTitle": "Vue",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to become a Vue Developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -365,24 +354,14 @@
     "featured": true,
     "jsonUrl": "/project/vue.json",
     "resourcesPath": "/roadmaps/105-vue/resources.md",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
     },
     "pdfUrl": "/pdfs/vue.pdf",
     "contentPathsFilePath": "/roadmaps/105-vue/content-paths.json",
-    "relatedRoadmaps": [
-      "frontend",
-      "javascript",
-      "react",
-      "angular",
-      "nodejs"
-    ],
+    "relatedRoadmaps": ["frontend", "javascript", "react", "angular", "nodejs"],
     "id": "vue",
     "metaPath": "/roadmaps/105-vue/meta.json",
     "isUpcoming": false
@@ -414,17 +393,14 @@
     "description": "Step by step guide to learn JavaScript in 2022",
     "featuredTitle": "JavaScript",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to learn JavaScript in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
     "isNew": true,
     "featured": true,
     "jsonUrl": "/project/javascript.json",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -466,6 +442,7 @@
     "description": "Step by step guide to becoming an Android developer in 2022",
     "featuredTitle": "Android",
     "type": "role",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming an Android Developer in 2022",
     "isTextHeavy": true,
     "isCommunity": false,
@@ -473,21 +450,12 @@
     "jsonUrl": "/project/android.json",
     "landingPath": "/roadmaps/107-android/landscape.md",
     "resourcesPath": "/roadmaps/107-android/resources.md",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
     },
-    "relatedRoadmaps": [
-      "frontend",
-      "javascript",
-      "react",
-      "nodejs"
-    ],
+    "relatedRoadmaps": ["frontend", "javascript", "react", "nodejs"],
     "id": "android",
     "metaPath": "/roadmaps/107-android/meta.json",
     "isUpcoming": false
@@ -550,6 +518,7 @@
     "featuredTitle": "Node.js",
     "featuredDescription": "Step by step guide to becoming a Node.js developer in 2022",
     "type": "tool",
+    "keySkill": false,
     "isNew": true,
     "author": {
       "name": "Kamran Ahmed",
@@ -594,6 +563,7 @@
     "description": "Step by step guide to becoming a Python developer in 2022",
     "featuredTitle": "Python",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming a Python Developer in 2022",
     "isTextHeavy": true,
     "isCommunity": false,
@@ -601,9 +571,7 @@
     "jsonUrl": "/project/python.json",
     "resourcesPath": "/roadmaps/108-python/resources.md",
     "pdfUrl": "/pdfs/python.pdf",
-    "versions": [
-      "latest"
-    ],
+    "versions": ["latest"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -653,6 +621,7 @@
     "description": "Step by step guide to becoming a Go developer in 2022",
     "featuredTitle": "Go",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming a Go developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -661,11 +630,7 @@
     "jsonUrl": "/project/golang.json",
     "resourcesPath": "/roadmaps/109-golang/resources.md",
     "pdfUrl": "/pdfs/go.pdf",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -713,6 +678,7 @@
     "description": "Step by step guide to becoming a Java developer in 2022",
     "featuredTitle": "Java",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming a Java Developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -720,11 +686,7 @@
     "featured": true,
     "jsonUrl": "/project/java.json",
     "resourcesPath": "/roadmaps/110-java/resources.md",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Kamran Ahmed",
       "url": "https://twitter.com/kamranahmedse"
@@ -772,6 +734,7 @@
     "description": "Learn how to create a design system with this step by step guide",
     "featuredTitle": "Design System",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to building a modern Design System",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -825,6 +788,7 @@
     "description": "Step by step guide to becoming a modern PostgreSQL DB Administrator in 2022",
     "featuredTitle": "DBA",
     "type": "role",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to become a PostgreSQL DBA in 2022",
     "landingPath": "/roadmaps/111-postgresql-dba/landscape.md",
     "resourcesPath": "/roadmaps/111-postgresql-dba/resources.md",
@@ -837,10 +801,7 @@
     "featured": true,
     "detailed": false,
     "versions": [],
-    "relatedRoadmaps": [
-      "backend",
-      "devops"
-    ],
+    "relatedRoadmaps": ["backend", "devops"],
     "id": "postgresql-dba",
     "metaPath": "/roadmaps/111-postgresql-dba/meta.json",
     "isUpcoming": false
@@ -885,6 +846,7 @@
     "featuredDescription": "Step by step guide to becoming a blockchain developer in 2022",
     "featured": true,
     "type": "role",
+    "keySkill": true,
     "isNew": true,
     "imageUrl": "/roadmaps/blockchain.png",
     "jsonUrl": "/project/blockchain.json",
@@ -930,6 +892,7 @@
     "description": "Steps to follow in order to become a modern QA Engineer in 2022",
     "featuredTitle": "QA",
     "type": "role",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming a modern QA Engineer in 2022",
     "featured": true,
     "isNew": true,
@@ -983,6 +946,7 @@
     "featuredTitle": "Software Architect",
     "isNew": true,
     "type": "role",
+    "keySkill": false,
     "jsonUrl": "/project/software-architect.json",
     "featuredDescription": "Step by step guide to become a Software Architect in 2022",
     "isCommunity": false,
@@ -1028,6 +992,7 @@
     "description": "Step by step guide to learn software design and architecture",
     "featuredTitle": "Software Design and Architecture",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Guide to learn software design and architecture",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -1086,6 +1051,7 @@
     "description": "Step by step guide to becoming an ASP.NET core developer in 2022",
     "featuredTitle": "ASP.NET Core",
     "type": "role",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming an ASP.NET Core Developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -1093,11 +1059,7 @@
     "featured": true,
     "isNew": true,
     "jsonUrl": "/project/aspnet-core.json",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "author": {
       "name": "Moien Tajik",
       "url": "https://twitter.com/MoienTajik"
@@ -1135,6 +1097,7 @@
     "description": "Step by step guide to learn GraphQL in 2022",
     "featuredTitle": "GraphQL",
     "type": "tool",
+    "keySkill": false,
     "featuredDescription": "Step by Step guide to learn GraphQL in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -1190,6 +1153,7 @@
     "description": "Step by step guide to becoming a Flutter developer in 2022",
     "featuredTitle": "Flutter",
     "type": "role",
+    "keySkill": false,
     "featuredDescription": "Step by step guide to becoming a Flutter Developer in 2022",
     "isTextHeavy": false,
     "isCommunity": false,
@@ -1197,11 +1161,7 @@
     "featured": true,
     "isNew": true,
     "jsonUrl": "/project/flutter.json",
-    "versions": [
-      "latest",
-      "2018",
-      "2017"
-    ],
+    "versions": ["latest", "2018", "2017"],
     "pdfUrl": "/pdfs/flutter.pdf",
     "relatedRoadmaps": [
       "backend",

@@ -48,13 +48,13 @@ export default function Home(props: HomeProps) {
           </Box>
 
           <FeaturedRoadmapsList
-            roadmaps={roadmaps.filter(roadmap => roadmap.type === 'role')}
-            title={'Role Based' }
+            roadmaps={roadmaps.filter((roadmap) => roadmap.keySkill === true)}
+            title={'Key Skills'}
           />
 
           <FeaturedRoadmapsList
-            roadmaps={roadmaps.filter(roadmap => roadmap.type === 'tool')}
-            title={'Skill Based' }
+            roadmaps={roadmaps.filter((roadmap) => roadmap.keySkill === false)}
+            title={'Other Skills'}
           />
         </Container>
       </Box>
@@ -77,7 +77,14 @@ export default function Home(props: HomeProps) {
                 target={'_blank'}
                 key={video.id}
                 href={video.youtubeLink!}
-                badgeText={video.isNew ? `NEW · ${(new Date(video.createdAt)).toLocaleDateString('en-us', { month: 'long'})}` : ''}
+                badgeText={
+                  video.isNew
+                    ? `NEW · ${new Date(video.createdAt).toLocaleDateString(
+                        'en-us',
+                        { month: 'long' }
+                      )}`
+                    : ''
+                }
                 hideSubtitleOnMobile
                 title={video.title}
                 subtitle={video.duration}
@@ -112,8 +119,17 @@ export default function Home(props: HomeProps) {
                 key={guide.id}
                 href={`/guides/${guide.id}`}
                 title={guide.title}
-                badgeText={guide.isNew ? `NEW · ${(new Date(guide.createdAt)).toLocaleDateString('en-us', { month: 'long'})}` : ''}
-                subtitle={`${guide?.type?.charAt(0).toUpperCase()}${guide?.type?.slice(1)}`}
+                badgeText={
+                  guide.isNew
+                    ? `NEW · ${new Date(guide.createdAt).toLocaleDateString(
+                        'en-us',
+                        { month: 'long' }
+                      )}`
+                    : ''
+                }
+                subtitle={`${guide?.type
+                  ?.charAt(0)
+                  .toUpperCase()}${guide?.type?.slice(1)}`}
               />
             ))}
             <DimmedMore href={'/guides'} text="View all Guides" />

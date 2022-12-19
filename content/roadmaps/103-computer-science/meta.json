@@ -25,6 +25,7 @@
   "description": "Computer Science curriculum with free resources for a self-taught developer.",
   "featuredTitle": "Computer Science",
   "type": "tool",
+  "keySkill": false,
   "featuredDescription": "Curriculum with free resources for a self-taught developer.",
   "isTextHeavy": false,
   "isNew": true,
